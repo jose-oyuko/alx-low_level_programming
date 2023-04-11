@@ -4,11 +4,11 @@
  * @n: number to be returned
  * Return: Factorial of n
  */
-int factorial(int number)
+int factorial(int n)
 {
-	if (number < 0)
+	if (n < 0)
 		return (-1);
-	if (number == 0)
+	if (n == 0)
 		return (1);
-	return (number * factorial(number - 1));
+	return (n * factorial(n - 1));
 }
