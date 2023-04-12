@@ -5,6 +5,12 @@
  * @n: int
  * Return: 0 or 1
  */
+
+/**
+ * check_prime - checks for prime number
+ * @n: integer n
+ * @resp: integer resp
+ */
 int check_prime(int n, int resp);
 
 int is_prime_number(int n)
