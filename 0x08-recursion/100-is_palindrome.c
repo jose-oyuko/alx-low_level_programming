@@ -3,6 +3,11 @@
 int check_pal(char *s, int i, int len);
 int _len(char *s);
 
+/**
+ * is_palindrome - Checks if a atring is a palindmore
+ * @s: input string
+ * Return: 1 if a string is palindmore and 0 if not
+ */
 int is_palindrome(char *s)
 {
 	if (*s == 0)
