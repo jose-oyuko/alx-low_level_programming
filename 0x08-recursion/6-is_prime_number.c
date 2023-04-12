@@ -1,17 +1,12 @@
 #include "main.h"
 #include <stdio.h>
+
+int check_prime(int n, int resp);
 /**
  * is_prime_number - check if n is a prime number
  * @n: int
  * Return: 0 or 1
  */
-
-/**
- * check_prime - checks for prime number
- * @n: integer n
- * @resp: integer resp
- */
-int check_prime(int n, int resp);
 
 int is_prime_number(int n)
 {
@@ -20,8 +15,8 @@ int is_prime_number(int n)
 
 /**
  * check_prime - check all number < n if they can divide it
- * @n: int
- * @resp: int
+ * @n: int n
+ * @resp: int resp
  * Return: int
  */
 
